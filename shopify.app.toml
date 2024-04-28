@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "16e48f212875e7ed3453163882879404"
+name = "shopefy-first-app"
+handle = "shopefy-first-app"
+application_url = "https://rhode-regression-yeast-withdrawal.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "aibot24.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://rhode-regression-yeast-withdrawal.trycloudflare.com/auth/callback",
+  "https://rhode-regression-yeast-withdrawal.trycloudflare.com/auth/shopify/callback",
+  "https://rhode-regression-yeast-withdrawal.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
