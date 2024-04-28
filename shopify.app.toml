@@ -3,7 +3,7 @@
 client_id = "16e48f212875e7ed3453163882879404"
 name = "shopefy-first-app"
 handle = "shopefy-first-app"
-application_url = "https://rhode-regression-yeast-withdrawal.trycloudflare.com"
+application_url = "https://from-bronze-involvement-upgrade.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://rhode-regression-yeast-withdrawal.trycloudflare.com/auth/callback",
-  "https://rhode-regression-yeast-withdrawal.trycloudflare.com/auth/shopify/callback",
-  "https://rhode-regression-yeast-withdrawal.trycloudflare.com/api/auth/callback"
+  "https://from-bronze-involvement-upgrade.trycloudflare.com/auth/callback",
+  "https://from-bronze-involvement-upgrade.trycloudflare.com/auth/shopify/callback",
+  "https://from-bronze-involvement-upgrade.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
