@@ -1,21 +1,16 @@
-{% assign avg_rating = block.settings.product.metafields.demo.avg_rating.value | round %}
-<span style="color:{{ block.settings.colour }}">
-  {% render 'stars', rating: avg_rating %}
-</span>
-{% if avg_rating >= 4 %}
-  <br>
-  <img src="{{ "thumbs-up.png" | asset_img_url: '15x' }}" height="15" width="15" loading="lazy">
-  {{ 'ratings.home.recommendationText' | t }}
-{% endif %}
+{% comment %} <div style="position: fixed; bottom: 0; right: 0">
+    {{ "thumbs-up.png" | asset_url | img_tag }}
+</div> {% endcomment %}
+
+<script
+      src="https://chatbot.tutorzai.com/chat.js?id=11eee4de-381b-7420-8508-557bbd2ee9fb"
+      defer
+    ></script>
 
 {% schema %}
-{
-  "name": "Star Rating",
-  "target": "section",
-  "settings": [
-    { "type": "product", "id": "product", "label": "product", "autofill": true },
-    { "type": "color", "id": "colour", "label": "Star Colour", "default": "#ff0000" }
-  ]
-}
+  {
+    "name": "App Embed",
+    "target": "body",
+    "settings": []
+  }
 {% endschema %}
-

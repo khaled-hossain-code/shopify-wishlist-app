@@ -3,7 +3,7 @@
 client_id = "16e48f212875e7ed3453163882879404"
 name = "shopefy-first-app"
 handle = "shopefy-first-app"
-application_url = "https://telephony-laden-polls-rs.trycloudflare.com"
+application_url = "https://chris-champions-stripes-bolivia.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://telephony-laden-polls-rs.trycloudflare.com/auth/callback",
-  "https://telephony-laden-polls-rs.trycloudflare.com/auth/shopify/callback",
-  "https://telephony-laden-polls-rs.trycloudflare.com/api/auth/callback"
+  "https://chris-champions-stripes-bolivia.trycloudflare.com/auth/callback",
+  "https://chris-champions-stripes-bolivia.trycloudflare.com/auth/shopify/callback",
+  "https://chris-champions-stripes-bolivia.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
